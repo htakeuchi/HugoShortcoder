@@ -3,7 +3,7 @@ HugoShortcoder
 
 ## About
 
-Chrome extension to copy Hugo shortcode to clipboard according to open URL.
+Chrome extension to copy [Hugo](https://gohugo.io/) shortcode to clipboard according to open URL.
 
 ## Usage
 

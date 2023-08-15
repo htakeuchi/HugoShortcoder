@@ -10,6 +10,7 @@ Chrome extension to copy Hugo shortcode to clipboard according to open URL.
 1. Open a supported site (currently gist, Instagram, X a.k.a Twitter, Vimeo, YouTube) and open the context menu by right-clicking the mouse.
 1. Select HugoShortcoder from the context menu.
 1. The Shortcode corresponding to the open site will be copied to the clipboard.
+1. If the site does not support it, the title and URL of the page will be copied in Markdown format.
 
 ## Supported sites and corresponding shortcodes
 

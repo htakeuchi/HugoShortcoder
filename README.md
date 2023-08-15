@@ -12,13 +12,13 @@ Chrome extension to copy [Hugo](https://gohugo.io/) [shortcode](https://gohugo.i
 1. The Shortcode corresponding to the open site will be copied to the clipboard.
 1. If the site does not support it, the title and URL of the page will be copied in Markdown format.
 
-## Supported sites and corresponding shortcodes
+## Supported services and corresponding shortcodes
 
 - gist `{{< gist user 50a7482715eac222e230d1e64dd9a89b >}}`
-- instagram `{{< instagram BWNjjyYFxVx >}}`
-- twitter `{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}`
-- vimeo `{{< vimeo 55073825 >}}`
-- youtube `{{< youtube w7Ft2ymGmfc >}}`
+- Instagram `{{< instagram BWNjjyYFxVx >}}`
+- X (Twitter) `{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}`
+- Vimeo `{{< vimeo 55073825 >}}`
+- YouTube `{{< youtube w7Ft2ymGmfc >}}`
 
 
 ## License

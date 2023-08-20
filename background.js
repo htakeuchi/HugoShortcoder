@@ -38,6 +38,14 @@ function generateShortcode(url, title) {
   } else if (url.includes("www.youtube.com")) {
     const params = new URLSearchParams(url.split('?')[1]);
     return `{{< youtube ${params.get('v')} >}}`;
+  } else if (url.includes("www.amazon.co.jp")) {
+    const parts = url.split('/');
+    let asinMatch = url.match(/\/(product|dp|gp\/product)\/(B[\dA-Z]{9})/);
+    if (asinMatch && asinMatch[1]) {
+      return `{{< amazon asin="${asinMatch[2]}" title="${title}" >}}`;
+    } else {
+      return `[${title}](${url})`; 
+    }
   } else {
     return `[${title}](${url})`; 
   }

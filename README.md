@@ -19,7 +19,7 @@ Chrome extension to copy [Hugo](https://gohugo.io/) [shortcode](https://gohugo.i
 - X (Twitter) `{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}`
 - Vimeo `{{< vimeo 55073825 >}}`
 - YouTube `{{< youtube w7Ft2ymGmfc >}}`
-
+- Amazon(JP) `{{< amazon asin="B09BDZ5RSJ" title="Amazon.co.jp: ルックバック (ジャンプコミックスDIGITAL) 電子書籍: 藤本タツキ: Kindleストア" >}}` (Not an official Hugo shortcode)
 
 ## License
 
